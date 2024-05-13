@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* Estilos básicos para el navbar */
+nav {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 105px;
+  }
+  
+  .nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 50px;
+  }
+  
+  .nav-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .social-icons img {
+    width: 24px; /* Ajusta el tamaño de los iconos según sea necesario */
+    height: auto;
+    margin-left: 10px;
+  }
+  .Lupa {
+    width: 2px; /* Define el ancho del icono */
+    height: 2px; /* Define la altura del icono */
+  }
+  .Lupa {
+    transform: scale(0.5); /* Reducir a la mitad el tamaño del icono */
+  }
+  .texto-con-imagen {
+    background-image: url(/Imagenes/bg-food.jpeg); /* Ruta de la imagen */
+    background-size: cover; /* Ajustar la imagen al tamaño del contenedor */
+    color: #737491; /* Color del texto */
+    padding: 210px; /* Espacio alrededor del texto */
+    font-size: 45px; /* Tamaño del texto */
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+  }
+  /* Estilos para el botón */
+.boton {
+    background-color: #766df4; /* Color de fondo morado */
+    color: rgb(255, 255, 255); /* Color del texto */
+    padding: 12px 23px; /* Espacio alrededor del texto */
+    font-size: 18px; /* Tamaño del texto */
+    border-radius: 17px; /* Bordes redondeados */
+    cursor: pointer; /* Cursor de tipo mano */
+    width: 105px; /* Ancho del botón */
+    height: 25px; /* Alto del botón */
+    margin-top: 25px;
+  }
+  .social-icons {
+    margin-right: 100px;
+  }
+ /* Estilos para el título */
+.titulo {
+    color: #766df4; /* Color morado para los títulos */
+    margin-right: 25px;
+    text-decoration: none;
+    font-size: 20px; /* Tamaño del texto */
+    font-family: "Roboto", sans-serif;
+  }
+.Tem {
+    color: #fff;
+    margin-right: 25px;
+    text-decoration: none;
+    font-size: 20px; /* Tamaño del texto */
+    font-family: "Roboto", sans-serif;
+}
+.Account {
+    color: #fff;
+    margin-right: 25px;
+    text-decoration: none;
+    font-size: 20px; /* Tamaño del texto */
+    font-family: "Roboto", sans-serif;
+}
+.Pages {
+    color: #fff;
+    margin-right: 25px;
+    text-decoration: none;
+    font-size: 20px; /* Tamaño del texto */
+    font-family: "Roboto", sans-serif;
+}
+.Doc {
+    color: #fff;
+    margin-right: 25px;
+    text-decoration: none;
+    font-size: 20px; /* Tamaño del texto */
+    font-family: "Roboto", sans-serif;
+}
+.titulo:hover {
+    text-decoration: underline;
+}
+.Tem:hover {
+    text-decoration: underline;
+}
+.Account:hover {
+    text-decoration: underline;
+}
+.Pages:hover {
+    text-decoration: underline;
+}
+.Doc:hover {
+    text-decoration: underline;
+}
