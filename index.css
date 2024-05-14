@@ -118,3 +118,104 @@ nav {
 .Doc:hover {
     text-decoration: underline;
 }
+
+.body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.card-container {
+  display: flex;
+  gap: 40px;
+  justify-content: center
+}
+
+.card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 500px;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card p {
+  margin-left: 25px;
+  font-size: 20px;
+  color: #000000;
+  text-align: left;
+}
+.min p {
+  color: #737491;
+  margin-bottom: 33px;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+}
+
+.texto {
+  font-family: "Roboto", sans-serif;
+  margin-right: 25px;
+  text-decoration: none;
+  font-size: 45px; /* Tamaño del texto */
+  text-align: center;
+  margin-top: 100px;
+  color: #737491;
+  margin-bottom: 100px;
+}
+
+.Flechas {
+  color: rgb(0, 0, 0); /* Color del texto */
+  padding: 12px 23px; /* Espacio alrededor del texto */
+  font-size: 18px; /* Tamaño del texto */
+  border-radius: 17px; /* Bordes redondeados */
+  width: 40px; /* Ancho del botón */
+  height: 25px; /* Alto del botón */
+  margin-top: 25px
+}
+.button-container {
+  display: flex;
+  gap: 20px;
+  border: #ddd;
+  justify-content: flex-end
+}
+
+.arrow-btn {
+  background-color: #e2e2e2;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 4px;
+  padding: 9px 7px;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin-top: 35px;
+}
+
+.arrow-btn .arrow {
+  font-size: 20px;
+}
+
+.arrow-btn.left .arrow {
+  margin-right: 8px;
+}
+
+.arrow-btn.right .arrow {
+  margin-left: 8px;
+}
+
+.arrow-btn:hover {
+  background-color: #0056b3;
+}
+
