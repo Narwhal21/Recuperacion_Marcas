@@ -185,7 +185,6 @@ nav {
 }
 .button-container {
   display: flex;
-  gap: 20px;
   border: #ddd;
   justify-content: flex-end
 }
@@ -201,6 +200,7 @@ nav {
   display: flex;
   align-items: center;
   margin-top: 35px;
+  margin-right: 150px;
 }
 
 .arrow-btn .arrow {
