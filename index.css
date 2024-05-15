@@ -200,22 +200,57 @@ nav {
   display: flex;
   align-items: center;
   margin-top: 35px;
-  margin-right: 150px;
+  margin-right: 30px;
+}
+.container {
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #e2e2e2;
+    border-radius: 20px;
 }
 
-.arrow-btn .arrow {
-  font-size: 20px;
+.column {
+    display: flex;
+    align-items: flex-end;
+    width: 48%; /* Ajusta este valor para controlar el ancho de las columnas */
+    gap: 20px; /* Espacio entre la imagen y el texto */
 }
 
-.arrow-btn.left .arrow {
-  margin-right: 8px;
+.column img {
+    width: 200px; /* Ajusta este valor según el tamaño deseado */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 8px;
+    margin-top: 50px;
+    margin-left: 50px;
 }
 
-.arrow-btn.right .arrow {
-  margin-left: 8px;
+.column p {
+    font-size: 40px;
+    color: #333;
+    max-width: 70%; /* Ajusta este valor para controlar el ancho del texto */
+    font-family: "Roboto", sans-serif;
+    color: #737491;
+}
+.bootom {
+  background-color: #766df4; /* Color de fondo morado */
+    color: rgb(255, 255, 255); /* Color del texto */
+    padding: 10px 23px; /* Espacio alrededor del texto */
+    font-size: 18px; /* Tamaño del texto */
+    border-radius: 17px; /* Bordes redondeados */
+    width: 105px; /* Ancho del botón */
+    height: 35px; /* Alto del botón */
+    margin-left: 250px;
 }
 
-.arrow-btn:hover {
-  background-color: #0056b3;
+.Vegan {
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  color: #737491;
+  justify-content: center
+  
 }
+
+
+
 
